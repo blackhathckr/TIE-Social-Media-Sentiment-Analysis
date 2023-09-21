@@ -1,0 +1,19 @@
+Multinomial NB Model
+Best Hyperparameters: {'alpha': 1.0}
+Accuracy: 0.8171717171717172
+Precision Score: 0.8176644493717664
+Recall Score: 0.8171717171717172
+F1 Score: 0.8172305038608517
+Classification Report :               
+               precision    recall  f1-score   support
+
+           0       0.80      0.83      0.81       477
+           1       0.83      0.81      0.82       513
+
+    accuracy                           0.82       990
+   macro avg       0.82      0.82      0.82       990
+weighted avg       0.82      0.82      0.82       990
+
+Confusion Matrix: 
+                  [[394  83]
+                  [ 98 415]]

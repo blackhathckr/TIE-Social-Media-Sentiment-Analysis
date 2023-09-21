@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Sentiment Analysis</title>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" />
+</head>
+<body>
+    <div class="header">
+        <h2>Social Media Sentiment Analysis</h2>
+        <form action="/predict" method="POST">
+          <div class="user-box">
+            <label for="model" style="font-weight: bold;">Choose the Supervised Machine Learning / Deep Learning - Recurrent Neural Network Model</label>
+            <br />
+            <br />
+            <select name="model" id="model">
+                <option value="0">Random Forest ( Supervised Machine Learning Classification Model )</option>
+                <option value="1" selected>Long Short-Term Memory ( LSTM ) - Deep Learning - Recurrent Neural Network Model</option>
+                <option value="2">Decision Tree ( Supervised Machine Learning Classification Model )</option>
+                <option value="3">Logistic Regression ( Supervised Machine Learning Classification Model )</option>
+                <option value="4">Multinomial NB ( Supervised Machine Learning Classification Model )</option>
+                <option value="5">Bernoulli NB ( Supervised Machine Learning Classification Model )</option>
+                <option value="6">SVC - Support Vector Classifier ( Supervised Machine Learning Classification Model )</option>
+                <option value="7">K Nearest Neighbors ( Supervised Machine Learning Classification Model )</option>
+            </select>
+            <br />
+            <br />
+            <br />
+          </div>
+          <div class="user-box">
+            <input type="text" name="text" required="" >
+            <label style="font-weight: bold;">Enter the Text for Sentiment Analysis</label>
+          </div>
+          <button type="submit" id="submit">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Analyze Sentiment
+          </button>
+        </form>
+      </div>
+      <script src="{{ url_for('static',filename='js/index.js') }}"></script>
+</body>
+</html>

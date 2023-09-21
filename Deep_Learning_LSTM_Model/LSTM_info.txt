@@ -1,0 +1,10 @@
+Deep Learning LSTM ( Long Short-Term Memory ) Model
+
+Accuracy: 0.7688888888
+Precision Score: 0.7858350
+Recall Score: 0.7754677
+F1 Score: 0.78197064
+
+Confusion Matrix: 
+                  [[319  100]
+                  [ 108 373]]

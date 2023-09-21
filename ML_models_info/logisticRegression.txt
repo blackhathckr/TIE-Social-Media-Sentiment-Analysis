@@ -1,0 +1,19 @@
+Logistic Regression Model
+Best Hyperparameters: {'C': 1, 'penalty': 'l2', 'solver': 'saga'}
+Accuracy: 0.8393939393939394
+Precision Score: 0.841293449197861
+Recall Score: 0.8393939393939394
+F1 Score: 0.8394101623773155
+Classification Report :               
+               precision    recall  f1-score   support
+
+           0       0.81      0.87      0.84       477
+           1       0.87      0.81      0.84       513
+
+    accuracy                           0.84       990
+   macro avg       0.84      0.84      0.84       990
+weighted avg       0.84      0.84      0.84       990
+
+Confusion Matrix: 
+                  [[414  63]
+                  [ 96 417]]

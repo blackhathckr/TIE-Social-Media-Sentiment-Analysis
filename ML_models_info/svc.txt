@@ -1,0 +1,19 @@
+Support Vector Classifier ( SVC ) Model
+Best Hyperparameters: {'C': 1, 'degree': 2, 'gamma': 1, 'kernel': 'rbf'}
+Accuracy: 0.7838383838383839
+Precision Score: 0.78838721187016
+Recall Score: 0.7838383838383839
+F1 Score: 0.7835912663431293
+Classification Report :              
+                precision    recall  f1-score   support
+
+           0       0.75      0.83      0.79       477
+           1       0.83      0.74      0.78       513
+
+    accuracy                           0.78       990
+   macro avg       0.79      0.79      0.78       990
+weighted avg       0.79      0.78      0.78       990
+
+Confusion Matrix: 
+                  [[398  79]
+                  [135 378]]

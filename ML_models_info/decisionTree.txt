@@ -1,0 +1,19 @@
+Decision Tree Model
+Best Hyperparameters: {'criterion': 'entropy', 'max_depth': None, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 5}
+Accuracy: 0.9737373737373738
+Precision Score: 0.9745493428949134
+Recall Score: 0.9737373737373738
+F1 Score: 0.9737459506541115
+Classification Report :               
+               precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97       477
+           1       0.99      0.96      0.97       513
+
+    accuracy                           0.97       990
+   macro avg       0.97      0.97      0.97       990
+weighted avg       0.97      0.97      0.97       990
+
+Confusion Matrix: 
+                  [[474   3]
+                  [ 23 490]]

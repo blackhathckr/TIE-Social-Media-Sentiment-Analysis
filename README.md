@@ -10,4 +10,4 @@ Launch the Flask Server using the command - python flask_server.py
 
 Launch the Streamlit Web Application using the command - python -m streamlit run streamlit_web_app.py
 
-Launch Tensorboard using the command - tensorboard –-logdir=./Tensorboard –port=%port%
+Launch Tensorboard using the command - tensorboard --logdir=./Tensorboard –port=%port%
